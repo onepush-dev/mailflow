@@ -4,11 +4,11 @@
 FROM ghcr.io/maathimself/mailflow-backend:4.5.1
 LABEL org.opencontainers.image.source="https://github.com/onepush-dev/mailflow"
 ENV NODE_ENV=production \
-    PORT=3000 \
+    PORT=8080 \
     TRUST_PROXY_HOPS=2 \
     DB_PORT=5432 \
     DB_NAME=postgres \
     DB_USER=postgres \
     IMAGE_CACHE_DIR=/var/cache/mailflow/images \
     IMAGE_CACHE_MAX_MB=512
-EXPOSE 3000
+EXPOSE 8080

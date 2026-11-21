@@ -5,5 +5,5 @@ FROM ghcr.io/maathimself/mailflow-frontend:4.5.1
 LABEL org.opencontainers.image.source="https://github.com/onepush-dev/mailflow"
 ENV TLS_MODE=off \
     BACKEND_HOST=backend.railway.internal \
-    BACKEND_PORT=3000
+    BACKEND_PORT=8080
 EXPOSE 80
