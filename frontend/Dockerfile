@@ -3,7 +3,8 @@
 # `backend` service over Railway's private network (BACKEND_HOST is a reference variable).
 FROM ghcr.io/maathimself/mailflow-frontend:4.5.1
 LABEL org.opencontainers.image.source="https://github.com/onepush-dev/mailflow"
+COPY railway/sites-off.caddy /etc/caddy/sites-off.caddy
 ENV TLS_MODE=off \
     BACKEND_HOST=backend.railway.internal \
     BACKEND_PORT=8080
-EXPOSE 80
+EXPOSE 80 8080

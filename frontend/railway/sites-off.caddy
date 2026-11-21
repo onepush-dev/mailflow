@@ -1,0 +1,5 @@
+# TLS_MODE=off on Railway: HTTP behind Railway's HTTPS edge. Port 80 carries the public domain;
+# 8080 (Railway's PORT) answers the deploy healthcheck. Same app block as upstream.
+:80, :8080 {
+	import app http
+}
