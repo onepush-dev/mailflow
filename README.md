@@ -2,7 +2,7 @@
 
 [MailFlow](https://github.com/maathimself/mailflow) (AGPL-3.0) — a self-hosted unified webmail for many IMAP accounts, with push notifications, rules, contacts and search. Deploy it on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/v5HUF-)
 
 ## What this template runs
 
